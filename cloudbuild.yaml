@@ -3,7 +3,8 @@ steps:
   args:
   - go
   - build
-  - -o server
+  - -o
+  - server
   - '.'
 - name: gcr.io/cloud-builders/docker
   args:
