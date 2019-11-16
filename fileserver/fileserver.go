@@ -1,5 +1,10 @@
 package fileserver
 
+import (
+	"fmt"
+)
+
 func Upload() {
-	panic("not implement")
+	fmt.Println("uploading...")
+	// panic("not implement")
 }
