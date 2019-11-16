@@ -18,6 +18,7 @@ steps:
   - gcr.io/$PROJECT_ID/demo-file-server:$COMMIT_SHA
 - name: gcr.io/cloud-builders/gcloud
   args:
+  - beta
   - run
   - deploy
   - demo-file-server
