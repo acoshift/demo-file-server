@@ -16,5 +16,14 @@ steps:
   args:
   - push
   - gcr.io/$PROJECT_ID/demo-file-server:$COMMIT_SHA
+- name: gcr.io/cloud-builders/gcloud
+  args:
+  - run
+  - deploy
+  - demo-file-server
+  - --image=gcr.io/$PROJECT_ID/demo-file-server:$COMMIT_SHA
+  - --async
+  - --platform=managed
+  - --region=asia-northeast1
 images:
 - gcr.io/$PROJECT_ID/demo-file-server:$COMMIT_SHA
