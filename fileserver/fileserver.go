@@ -6,5 +6,5 @@ import (
 
 func Upload() {
 	fmt.Println("uploading...")
-	panic("not implement")
+	// panic("not implement")
 }
