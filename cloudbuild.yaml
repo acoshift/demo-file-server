@@ -1,5 +1,5 @@
 steps:
-- name: golang
+- name: golang:alpine
   args:
   - go
   - build

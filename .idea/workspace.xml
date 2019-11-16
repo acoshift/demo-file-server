@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="889a0c91-6224-4672-ab1a-b1c85632ed53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/fileserver/fileserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/fileserver/fileserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudbuild.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudbuild.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
